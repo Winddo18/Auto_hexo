@@ -53,9 +53,6 @@ navbar:
     - name: 分类
       icon: fas fa-folder-open
       url: categories/
-    - name: 标签
-      icon: fas fa-tags
-      url: tags/
   search: Search...   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
 
@@ -71,7 +68,7 @@ cover:
   # background: https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
   background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
-  title: 'Tiga's Blog'
+  title: Tiga's Blog
   subtitle: ''
   search: A Wonderful Theme for Hexo # search bar placeholder
   features:
@@ -358,7 +355,7 @@ comments:
 
 ############################### Sidebar ############################### > start
 sidebar:
-  position: right # left right
+  position: left # left right
   # 主页、分类、归档等独立页面
   for_page: [blogger, category, tagcloud, donate]
   # layout: docs/post 这类文章页面
@@ -370,12 +367,12 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
-      avatar: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+      avatar: 
       shape: rectangle # circle, rectangle
       url: /about/
       title:
-      subtitle:
-      jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      subtitle: 且将新火试新茶，诗酒趁年华
+      # jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
         - icon: fas fa-rss
           url: /atom.xml
